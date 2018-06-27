@@ -3,8 +3,8 @@
 # Declare variables to be passed into your templates.
 replicaCount: 1
 image:
-  repository: draft
-  tag: dev
+  repository: 10.0.208.21:5000/mattlawnz/spiring-gradle-2
+  tag: 0.0.1
   pullPolicy: IfNotPresent
 service:
   name: spiring-gradle-2
